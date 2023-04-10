@@ -1,5 +1,5 @@
-; ModuleID = '../../tests/hello.c'
-source_filename = "../../tests/hello.c"
+; ModuleID = 'tests/hello.c'
+source_filename = "tests/hello.c"
 target datalayout = "e-m:e-i8:8:32-i16:16:32-i64:64-i128:128-n32:64-S128"
 target triple = "aarch64c-unknown-freebsd14.0"
 
@@ -38,4 +38,4 @@ attributes #1 = { "frame-pointer"="non-leaf" "no-trapping-math"="true" "stack-pr
 !6 = !{i32 7, !"frame-pointer", i32 1}
 !7 = !{!"clang version 14.0.0 (https://github.com/andrejjakovljevic/llvm-project-morello.git 37a56e25a3aaf25c0377f29b4f8ddef393425241)"}
 !8 = !{!9}
-!9 = !{!"sizeof struct hello"}
+!9 = !{!"sizeof struct hello *"}
